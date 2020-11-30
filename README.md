@@ -15,6 +15,8 @@ copiar el siguiente comando en el cmd en la ruta que quieras.
   Lo primero que hice fue crear el input y un botón, al botón le añadí el evento onClick mediante el cual consumo el api con una función fetch, dentro de la función 
   sustituyo el endpoint con el valor obtenido del input, dicho input esta validado para no realizar la petición vacía, igualmente si la validación del backend regresa 
   un error el error es "cachado" lo cual lanza una alerta y recarga la página para que el usuario pueda seguir intentando.
+  Este ejercicio esta realizado con react unicamente, se transpilo a js con Babel y se empaqueto con webpack por lo que el codigo utilizado es unicamente el admin.bundle.js
+  pero adjunto tambien el archivo casa.js para que quede una version legible por si requieren leer el codigo.
   
  -->Tarea 2: Un link interesante.
     
